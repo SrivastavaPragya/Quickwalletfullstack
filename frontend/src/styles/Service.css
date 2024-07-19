@@ -1,0 +1,284 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.service1topImg{
+
+
+  
+   height: 7.5rem;
+    
+    > img {
+      width: 100%;
+      height: 100%;
+    }
+}
+
+.service1container{
+  background: linear-gradient(
+    to right,
+    rgb(203, 239, 230),
+    rgb(222, 226, 251),
+    rgb(227, 223, 251),
+    rgb(206, 239, 234),
+    rgb(253, 254, 252)
+  );
+}
+
+.service1Content{
+    height: 20rem;
+    width: 60rem;
+    text-align: center;
+    margin: auto;
+   
+    
+
+   
+    >h1{
+        font-family: "Roboto Condensed", sans-serif;
+        color: rgb(40, 33, 76);
+        font-size: 3.6rem;
+        font-weight: 400;
+       
+        
+    }
+
+    >p{
+        font-family: "Poppins", sans-serif;
+        color:rgb(134, 134, 134);
+        font-size: 1.2rem;
+        font-weight: 400;
+        padding-inline: 4rem;
+     line-height: 2rem;
+        margin-inline: 4rem;
+        margin-top: 1.5rem;
+       
+    }
+    
+}
+
+
+/* service 2 css */
+
+.Service2cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0rem 4rem;
+    margin: 0rem 2rem;
+  
+    
+  }
+  
+  .Service2card {
+    
+    width: 22rem;
+    padding: 0rem 2rem;
+  
+    margin-left: 4rem;
+  
+    text-align: center;
+    margin-top: 3rem;
+  
+    > h3 {
+      margin-top: 1.5rem;
+      font-family: "Roboto Condensed", sans-serif;
+      color: rgb(40, 33, 76);
+      font-size: 1.8rem;
+      font-weight: 400;
+    }
+    > p {
+      margin-top: 1.5rem;
+      font-family: "Poppins", sans-serif;
+      font-size: 1.2rem;
+      color: rgb(152, 152, 152);
+    }
+    > img {
+      margin-top: 2.5rem;
+    }
+    > button {
+      margin-top: 2rem;
+      background-color: #dad6d6;
+      padding: 0.5rem 2rem;
+      border: none;
+      border-radius: 4px;
+      text-align: center;
+      margin-bottom: 2rem;
+      color: #777777;
+      font-family: "Poppins", sans-serif;
+      font-size: 0.9rem;
+    }
+  }
+  
+  .Service2card:hover {
+    --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+    --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+      var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+    border-top-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-top-left-radius: 35px;
+    border: 2px solid rgb(255, 100, 0);
+  
+    > button {
+      background-color: rgb(255, 100, 0);
+      color: white;
+    }
+  }
+  
+
+  /* services 3 css */
+
+  .service3Container{
+    text-align: center;
+    background: linear-gradient(
+        to right,
+        rgb(203, 239, 230),
+        rgb(222, 226, 251),
+        rgb(227, 223, 251),
+        rgb(206, 239, 234),
+        rgb(253, 254, 252)
+      );
+padding-block: 4rem;
+
+  }
+
+
+  .service3Content{
+  
+    max-width: 50rem;
+    margin: 4rem auto;
+   
+    >h3{
+        margin-top: 4rem;
+        margin-top: 1.5rem;
+        font-family: "Roboto Condensed", sans-serif;
+        color: rgb(41, 183, 179);
+        font-size: 1.1rem;
+        font-weight: 400;
+    }
+    
+    >h1{
+    
+        margin-top: 1.5rem;
+        font-family: "Roboto Condensed", sans-serif;
+        color: rgb(40, 33, 76);
+        font-size: 3.3rem;
+    
+        font-weight: 400;
+    }
+    >p{
+        margin-top: 1.5rem;
+        font-family: "Poppins", sans-serif;
+        font-size: 1.2rem;
+        color: rgb(152, 152, 152);
+    }
+  }
+
+
+  /* service4.css */
+
+  .service4topPart{
+    text-align: center;
+    max-width: 35rem;
+  
+    
+    margin: 4rem auto;
+    
+    >h3{
+      font-family: "Roboto Condensed", sans-serif;
+      color: rgb(41, 183, 179);
+      font-size: 1.1rem;
+      font-weight: 400;
+    }
+    >h1{
+      margin-top: 2rem;
+      font-family: "Roboto Condensed", sans-serif;
+      color: rgb(40, 33, 76);
+      font-size: 3.3rem;
+
+      font-weight: 400;
+    }
+  }
+
+
+  .service4leftPart{
+    position: relative;
+    width: 40%;
+   
+    margin: 0rem 4rem;
+    padding: 0rem 4rem;
+    
+  }
+
+  .service4img1{
+    position: absolute;
+    top: -28%;
+    left: 1%;
+  }
+
+  .service4img2{
+    position: absolute;
+    top: -27%;
+    z-index: 1;
+    left: 30%;
+  }
+
+  .service4bottomPart{
+    display: flex;
+   
+  }
+
+  .service3RightPart{
+   
+    row-gap: 2rem;
+  margin-inline:2rem ;
+   padding-inline: 3rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;    
+   
+   
+  }
+
+  .service3card{
+    text-align: center;
+
+ 
+   margin-inline: 1rem;
+   padding-inline: 1rem;
+   
+   
+   
+   
+    >h2{
+      margin-top: 1rem;
+      font-family: "Roboto Condensed", sans-serif;
+      color: rgb(40, 33, 76);
+      font-size: 1.3rem;
+
+      font-weight: 400;
+    }
+
+    >h3{
+      margin-top: 1rem;
+      font-family: "Poppins", sans-serif;
+      font-size: 1rem;
+      color: rgb(152, 152, 152);
+      font-weight: 400;
+    }
+  }
+
+  .service4container{
+   height: 100%;
+
+  margin-bottom: 4rem;
+  padding-bottom:4rem ;
+   
+  }
+
+ 

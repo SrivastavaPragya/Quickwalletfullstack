@@ -15,7 +15,7 @@ const Home1 = () => {
 <h3>SIMPLE. TRANSPARENT. SECURE</h3>
 <h1>The Smart Way for<span className='orange'>  Online Payment</span> Solution.</h1>
 <p>Lorem ipsum dolor sit amet, consectetur adipisc ing elit sed do eiusmod tempor.</p>
-<button>Open a free Account</button>
+<button className='open'>Open a free Account</button>
         </div>
         <div className="HomeRight">
         <img src="./img1.png" alt="Background Circle" className="img1"/>

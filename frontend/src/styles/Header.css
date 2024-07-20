@@ -36,12 +36,15 @@
 
 .nav-menu {
     list-style: none;
-    padding: 0;
+  
+   margin-top: .4rem;
 }
 
 .nav-menu li {
     display: inline;
     margin: 0 33px; 
+   
+   
 }
 
 .nav-menu a {
@@ -50,10 +53,15 @@
     font-size: 1.1rem;
     font-family: "Roboto Condensed", sans-serif;
     font-weight: 400;
+    cursor: pointer;
+   /* padding: 1rem 0rem; */
+  
 }
 
 .nav-menu a:hover {
     color: rgb(255,100,0);
+   
+    
 }
 
 .HeaderButtons {
@@ -78,8 +86,15 @@
     margin-right: 2.4rem;
 }
 
+.LogIn:hover{
+    background-color: rgb(0,169,164);
+}
+
 .SignUp {
     background-color: rgb(255,100,0);
+}
+.SignUp:hover{
+    background-color: rgb(0,169,164);
 }
 
 .headerblue {

@@ -17,6 +17,9 @@
   }
 }
 
+.open:hover{
+  background-color: rgb(0,169,164);
+}
 .HomeRight {
   position: relative;
   width: 50rem;

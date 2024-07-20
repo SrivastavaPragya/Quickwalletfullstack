@@ -48,7 +48,12 @@ const Logged = () => {
         body: JSON.stringify(signupData)
       });
       const data = await response.json();
-      console.log(data);  // Handle response data as needed
+      if (response.ok) {
+        localStorage.setItem('authToken', data.token); // Save token to local storage
+        console.log(data);
+    } else {
+        throw new Error(data.message || "An error occurred");
+    }
     } catch (error) {
       console.error('Signup Error:', error);
     }
@@ -65,7 +70,12 @@ const Logged = () => {
         body: JSON.stringify(loginData)
       });
       const data = await response.json();
-      console.log(data);  // Handle response data as needed
+      if (response.ok) {
+        localStorage.setItem('authToken', data.token); // Save token to local storage
+        console.log(data);
+    } else {
+        throw new Error(data.message || "An error occurred");
+    }
     } catch (error) {
       console.error('Login Error:', error);
     }
